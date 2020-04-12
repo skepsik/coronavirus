@@ -1,0 +1,13 @@
+@import "custom";
+@import "flags";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins"; 
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/utilities";
+
+@each $color, $value in $colors {
+  .c-#{$color} {
+    color: $value
+  }
+}
