@@ -17,7 +17,7 @@
         b-table-column( field="deaths" label="Смерти" )
           span {{ props.row.deaths }}
           sup.pl-1.c-red( v-if="props.row.deathsChange" ) +{{ props.row.deathsChange }}
-        b-table-column( field="active" label="Активно" sortable )
+        b-table-column( field="activeCases" label="Активно" )
           span {{ props.row.activeCases }}
 </template>
 
