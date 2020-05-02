@@ -22,5 +22,25 @@ export default [
   { code: 'ua', title: 'Украина', rid: 0, cid: 112 },
   { code: 'by', title: 'Беларусь', rid: 0, cid: 113 },
   { code: 'lt', title: 'Литва', rid: 0, cid: 144 },
-  { code: 'lv', title: 'Латвия', rid: 0, cid: 111 }
+  { code: 'lv', title: 'Латвия', rid: 0, cid: 111 },
+  { code: 'md', title: 'Молдова', rid: 0, cid: 138 },
+
+  { code: 'am', title: 'Армения', rid: 0, cid: 126 },
+  { code: 'kz', title: 'Казахстан', rid: 0, cid: 16 },
+  { code: 'uz', title: 'Узбекистан', rid: 0, cid: 152 },
+  { code: 'kg', title: 'Кыргызстан', rid: 0, cid: 210 },
+  { code: 'fr', title: 'Франция', rid: 0, cid: 12 },
+  { code: 'ir', title: 'Иран', rid: 0, cid: 30 },
+  { code: 'tr', title: 'Турция', rid: 0, cid: 109 },
+  { code: 'be', title: 'Бельгия', rid: 0, cid: 56 },
+  { code: 'nl', title: 'Нидерланды', rid: 0, cid: 33 },
+  { code: 'br', title: 'Бразилия', rid: 0, cid: 58 },
+  { code: 'ca', title: 'Канада', rid: 0, cid: 24 },
+  { code: 'ch', title: 'Швейцария', rid: 0, cid: 59 },
+  { code: 'pt', title: 'Португалия', rid: 0, cid: 17 },
+  { code: 'at', title: 'Австрия', rid: 0, cid: 127 },
+  { code: 'in', title: 'Индия', rid: 0, cid: 6 },
+  { code: 'pl', title: 'Польша', rid: 0, cid: 110 },
+  { code: 'cz', title: 'Чехия', rid: 0, cid: 114 },
+  { code: 'il', title: 'Израиль', rid: 0, cid: 34 }
 ]

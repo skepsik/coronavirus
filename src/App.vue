@@ -16,14 +16,15 @@
             :to="{ path: '/' + region.code }"
           ) {{ region.title }}
       template( slot="end" )
-        b-navbar-item(
-          v-for="country in countries"
-          :key="country.code"
-          tag="router-link"
-          :to="{ path: '/' + country.code }"
-        )
-          span.flag( :class="`flag--${country.code}`" )
-          strong {{ country.title }}
+        b-navbar-dropdown( label="Страны" )
+          b-navbar-item(
+            v-for="country in countries"
+            :key="country.code"
+            tag="router-link"
+            :to="{ path: '/' + country.code }"
+          )
+            span.flag( :class="`flag--${country.code}`" )
+            strong {{ country.title }}
     router-view.app__content
 </template>
 
