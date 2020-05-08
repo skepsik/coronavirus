@@ -25,6 +25,14 @@
           )
             span.flag( :class="`flag--${country.code}`" )
             strong {{ country.title }}
+        b-navbar-item( tag="div" )
+          .buttons
+            b-tooltip(
+              label="Статистика и графики на канале телеграм"
+              position="is-bottom"
+            )
+              a( href="https://tgrm.cc/ru_corona_stats" target="_blank" )
+                img( src="@/assets/images/telegram.png" )
     router-view.app__content
 </template>
 
