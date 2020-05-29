@@ -1,0 +1,1 @@
+npm run build && scp -r dist/* p545917@p545917.ftp.ihc.ru:www/coronavirus.frontzavod.ru
