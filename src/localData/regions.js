@@ -8,6 +8,8 @@ export default [
   { code: 'kemerovo-region', title: 'Кемеровская обл.', rid: 21, cid: 20 },
   { code: 'lipetsk-region', title: 'Липецкая обл.', rid: 12, cid: 20 },
   { code: 'krasnodar-territory', title: 'Краснодарский край', rid: 19, cid: 20 },
+  { code: 'krasnoyarsk-territory', title: 'Красноярский край', rid: 10, cid: 20 },
+  { code: 'sverdlovsk-territory', title: 'Свердловская обл.', rid: 6, cid: 20 },
   { code: 'sakhalin-region', title: 'Сахалинская обл.', rid: 59, cid: 20 },
   { code: 'volgograd-region', title: 'Волгоградская обл.', rid: 52, cid: 20 },
   { code: 'chechen-republic', title: 'Чеченская Республика', rid: 50, cid: 20 },
@@ -42,5 +44,6 @@ export default [
   { code: 'in', title: 'Индия', rid: 0, cid: 6 },
   { code: 'pl', title: 'Польша', rid: 0, cid: 110 },
   { code: 'cz', title: 'Чехия', rid: 0, cid: 114 },
-  { code: 'il', title: 'Израиль', rid: 0, cid: 34 }
+  { code: 'il', title: 'Израиль', rid: 0, cid: 34 },
+  { code: 'es', title: 'Испания', rid: 0, cid: 35 }
 ]
