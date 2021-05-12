@@ -14,7 +14,7 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "buefy": "^0.8.15",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "core-js": "^3.6.4",
     "lodash-es": "^4.17.15",
     "moment": "^2.24.0",
